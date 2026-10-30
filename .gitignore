@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-file/#what-to-put-in-your-gitignore
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+.DS_Store?
+._*
+
+### Node ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Editor directories and files ###
+.idea/
+.vscode/*
+!.vscode/settings.json
+!*.swp
+*.swo
+*~
+.SwiftFileLocks
+.swiftpm/
+.build/
+Package.pins.lock
+.mesoncache/
+
+### Python ###
+__pycache__/
+*.py[cob]
+.Python
+env/
+venv/
+ENV/
+.venv/
+.vscode/
+
+### GitHub Sponsors specific ###
+.github/FUNDING.yml.orig
+*.pull_request_*
+gh-pages/
+dist/
+build/
+docs/_build/
